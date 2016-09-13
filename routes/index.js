@@ -1,6 +1,6 @@
 var express = require("express");
 var router = express.Router();
-var rubiera = require("../weatherReport.js");
+var rubiera = require("./weatherReport.js");
 
 //parse localhost and serve the home page
 router.get("/", function(req,res,next){
