@@ -1,0 +1,5 @@
+#ignore the following files:
+.DS_Store
+node_modules
+
+
